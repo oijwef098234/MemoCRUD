@@ -1,0 +1,33 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build
+/build/
+/out/
+
+# Gradle
+.gradle/
+/**/build/
+
+# Gradle Wrapper binary (허용)
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS / 환경 관련
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 테스트 리포트 및 임시 파일
+*.class
+*.swp
+*.swo
+
+# Application 설정 파일 (보안 이유로 제외 가능)
+application.yml
+application.properties
+
+# 기타 사용자 환경 파일
+*.env
